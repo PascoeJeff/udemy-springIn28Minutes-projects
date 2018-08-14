@@ -1,7 +1,9 @@
 package com.in28minutes.database.databasedemo.domain;
 
+import javax.persistence.Entity;
 import java.util.Date;
 
+@Entity
 public class Person {
     private int id;
     private String name;
