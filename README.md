@@ -4,3 +4,4 @@
 * [Make an object an entity](https://github.com/PascoeJeff/udemy-springIn28Minutes-projects/commit/dba2bd37990c2dae7ae65b02ac6e6fb465936bb8)
 * [Implementing findById with JPA Repository](https://github.com/PascoeJeff/udemy-springIn28Minutes-projects/commit/dd7c5a3c86458226402cbb3f0531ecfa170399b4)
 * [Using SpringData](https://github.com/PascoeJeff/udemy-springIn28Minutes-projects/commit/3f35ac85e9778f82bced7337baed111252496ef8)
+* [A Spring Web Mvc application](https://github.com/PascoeJeff/udemy-springIn28Minutes-projects/commit/11be3750f37b65404e85d7f3aa7f545d75fd9355)
