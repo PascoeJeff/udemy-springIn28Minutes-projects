@@ -6,11 +6,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Date;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class SpringDataDemoApplication implements CommandLineRunner {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
@@ -19,7 +18,7 @@ public class SpringDataDemoApplication implements CommandLineRunner {
     PersonSpringDataRepository repository;
 
     public static void main(String[] args) {
-        SpringApplication.run(JpaDemoApplication.class, args);
+        SpringApplication.run(SpringDataDemoApplication.class, args);
     }
 
     @Override

@@ -30,6 +30,6 @@ public class JpaDemoApplication implements CommandLineRunner {
 //        logger.info("Deleting 100002 -> {}", dao.deleteById(100002));
 //        logger.info("Find user with name Jeff -> {}", dao.findByName("Jeff"));
         logger.info("Inserting user 100007 -> {}", repository.insert(new Person( "Ferris Bueller", "Chicago", new Date())));
-//        logger.info("Updating user 100007 -> {}", dao.update(new Person(100007, "Ferris Mueller", "Chicago", new Date())));
+        logger.info("Updating user 100007 -> {}", repository.update(new Person(100002, "Ferris Mueller", "New York", new Date())));
     }
 }
